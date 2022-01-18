@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Test = (props: TestProps) => {
+const Test = ({name}: TestProps) => {
   return (
-    <div>Test {props.name}</div>
+    <div>Test {name}</div>
   )
 }
 interface TestProps {
